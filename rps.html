@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="rps.css">
+    <title>Rock,Paper,Sissor</title>
+
+</head>
+<body>
+    <div class="container-1">
+        <h1>ROCK,PAPER,SISSOR GAME</h1></div>
+    <div class="flex-box" id="flex-box-1">
+        <img src="rock.jpg" id="rock" width="250px" height="250px" onclick="rpsgame(this)">
+        <img src="paper.jpg" id="paper" width="250px" height="250px" onclick="rpsgame(this)">
+        <img src="sissor.jpg" id="sissor" width="250px" height="250px" onclick="rpsgame(this)">
+        <div class="refresh" id="refresh">
+            <button  onclick="myreset()">RESET</button>
+        </div>
+    </div>
+    
+
+    <script src="rps.js">
+
+    </script>
+</body>
+</html>
